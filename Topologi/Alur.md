@@ -66,5 +66,5 @@ Cloud bertindak sebagai gateway dengan IP 192.168.0.1, dan setiap router mengara
 
 ## Router ke Switch dan PC:
 
-Masing-masing router terhubung ke switch melalui LAN interface dan menyediakan IP di subnet berbeda (10.1.1.1, 10.2.2.2, 10.3.3.3). <br>
+Masing-masing router terhubung ke switch melalui LAN interface dan menyediakan IP di subnet berbeda (10.1.1.1, 10.2.2.1, 10.3.3.1). <br>
 Setiap PC yang terhubung ke switch menerima IP di subnet LAN masing-masing router dan menggunakan IP router sebagai gateway.
