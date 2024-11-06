@@ -16,6 +16,6 @@ o	R1 KJ ke R2 CR: 10.0.0.1 (di R1 KJ) dan 10.0.0.3 (di R2 CR). <br>
 o	R1 KJ ke R3 KHI: 10.0.0.2 (di R1 KJ) dan 10.0.0.5 (di R3 KHI). <br>
 o	R2 CR ke R3 KHI: 10.0.0.4 (di R2 CR) dan 10.0.0.6 (di R3 KHI).
 ## Routing dan Komunikasi
-Setiap router dikonfigurasi dengan rute ke jaringan di dua area lain. Ini memastikan bahwa jika PC1 di R1 KJ ingin mengirim data ke PC2 di R2 CR, data akan dialihkan melalui router dan melewati jaringan WAN yang menghubungkan ketiga area.
+Setiap router dikonfigurasi dengan rute ke jaringan di dua area lain. Ini memastikan bahwa jika PC1 di R1 KJ ingin mengirim data ke PC2 di R2 CR, data akan dialihkan melalui router dan melewati jaringan WAN atau R4 Central yang menghubungkan ketiga area.
 ## Dengan konfigurasi ini:
 PC 1, 2, dan 3 dapat saling berkomunikasi, meskipun berada di jaringan lokal yang berbeda dan terhubung melalui router di setiap area.
